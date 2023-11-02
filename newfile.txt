@@ -1,0 +1,7 @@
+Thu Nov  2 13:56:29 UTC 2023
+/dev/root                 4.9G      2.3G      2.6G  47% /
+   0 date > newfile.txt
+   1 df -h | grep -r '^/' >> newfile.txt 
+   2 cat newfile.txt 
+   3 history | tail -5 >> newfile.txt 
+AuthenticX86
