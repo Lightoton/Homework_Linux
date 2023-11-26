@@ -1,0 +1,7 @@
+   0 mkdir -p /tmp/logs
+   1 cat /root/readme.txt >> /tmp/logs/test.log
+   2 ls / >> /tmp/logs/test2.log 
+   3 cp /root/bench.py /tmp/logs/
+   4 tar -czvf /var/archive2.tar.gz /tmp/logs/
+   5 tar -tf /var/archive2.tar.gz 
+   6 history >> homeworkarchive.txt
